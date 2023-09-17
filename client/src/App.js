@@ -1,9 +1,11 @@
 import './App.css';
+import { MainContent, Navbar } from './components';
 
 function App() {
   return (
     <div className="App">
-      <h1>Welcome to Vehicle Management</h1>
+     <Navbar></Navbar>
+     <MainContent></MainContent>
     </div>
   );
 }
