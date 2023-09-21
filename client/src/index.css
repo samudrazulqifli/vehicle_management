@@ -1,11 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
 body {
   margin: 0;
-  font-family: 'Roboto Mono', monospace;
+  font-family: 'Roboto Mono', monospace !important;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
   font-family: 'Roboto mono', monospace
+}
+.border-left {
+  border-left: 1px solid #000; /* Menggunakan garis 1px solid hitam sebagai contoh */
+  padding-left: 20px; /* Padding di sebelah kanan elemen untuk memberikan jarak antara konten dan garis */
+}
+.border-right {
+  border-right: 1px solid #000; /* Menggunakan garis 1px solid hitam sebagai contoh */
+  padding-right: 20px; /* Padding di sebelah kanan elemen untuk memberikan jarak antara konten dan garis */
 }

@@ -1,14 +1,16 @@
-import dashboard from "./Dashboard/dashboard";
-import addFuel from "./Fuel/addFuel";
-import editFuel from "./Fuel/editFuel";
-import login from "./Profile/login"
-import register from "./Profile/register"
-import addVehicles from "./Vehicle/addVehicles"
-import editVehicles from "./Vehicle/editVehicles"
+import Dashboard from "./Dashboard/dashboard";
+import AddFuel from "./Fuel/addFuel";
+import EditFuel from "./Fuel/editFuel";
+import Login from "./Profile/login"
+import Register from "./Profile/register"
+import Profile from "./Profile/profile"
+import Vehicle from "./Vehicle/Vehicle";
+import AddVehicles from "./Vehicle/addVehicles"
+import EditVehicles from "./Vehicle/editVehicles"
 
 export {
-    dashboard,
-    addFuel, editFuel,
-    login, register,
-    addVehicles, editVehicles
+    Dashboard,
+    AddFuel, EditFuel,
+    Login, Register, Profile,
+    AddVehicles, EditVehicles, Vehicle
 }
